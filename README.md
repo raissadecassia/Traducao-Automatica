@@ -74,15 +74,15 @@ Realização da Ponderada: Tradução Automática
 
  **Construção dos vocabulários:**
 
-- Tokens com frequência menor que 2 são tratados como <unk>.
+- Tokens com frequência menor que 2 são tratados como "unk".
 
-- Tokens especiais adicionados: <pad>, <bos>, <eos>.
+- Tokens especiais adicionados: "pad", "bos", "eos".
 
  **Padding e truncamento:**
 
 - Todas as sequências têm o mesmo comprimento num_steps.
 
-- Sequências menores recebem <pad>; sequências maiores são truncadas.
+- Sequências menores recebem "pad"; sequências maiores são truncadas.
 
  **Iterador de minibatches:**
 
